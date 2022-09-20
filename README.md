@@ -1,22 +1,16 @@
 <h1 align="center"> Pytorch ReID </h1>
-<h2 align="center"> Strong, Small, Friendly </h2>
 
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/layumi/Person_reID_baseline_pytorch.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/layumi/Person_reID_baseline_pytorch/context:python)
-[![Build Status](https://travis-ci.org/layumi/Person_reID_baseline_pytorch.svg?branch=master)](https://travis-ci.org/layumi/Person_reID_baseline_pytorch)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/layumi/Person_reID_baseline_pytorch.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/layumi/Person_reID_baseline_pytorch/alerts/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+## Choice of solution
 
-A tiny, friendly, strong baseline code for Object-reID (based on [pytorch](https://pytorch.org)) since 2017.
 
-- **Strong.** It is consistent with the new baseline result in several top-conference works, e.g., [Joint Discriminative and Generative Learning for Person Re-identification(CVPR19)](https://arxiv.org/abs/1904.07223), [Beyond Part Models: Person Retrieval with Refined Part Pooling(ECCV18)](https://arxiv.org/abs/1711.09349), [Camera Style Adaptation for Person Re-identification(CVPR18)](https://arxiv.org/abs/1711.10295). We arrived Rank@1=88.24%, mAP=70.68% only with softmax loss. 
+## Comparison with traditional trackers
+Traditional trackers face problems with occlusion, when the object is obscured during the video. 
 
-- **Small.** With fp16 (supported by Nvidia apex), our baseline could be trained with only 2GB GPU memory.
+## Implementation
+Code for running the model training and testing are in ReID.ipynb file.
 
-- **Friendly.** You may use the off-the-shelf options to apply many state-of-the-art tricks in one line.
-Besides, if you are new to object re-ID, you may check out our **[Tutorial](https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial)** first (8 min read) :+1: .
-![](https://github.com/layumi/Person_reID_baseline_pytorch/blob/master/show.png)
-![](https://github.com/layumi/Person_reID_baseline_pytorch/blob/master/show-cub.jpg)
-
+## Evaluation Results
+Rank@1:0.879157 Rank@5:0.951010 Rank@10:0.967043 mAP:0.718611
 
 ## Citation
 ```bib
