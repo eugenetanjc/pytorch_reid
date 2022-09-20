@@ -13,35 +13,6 @@ Code for running the model training and testing are in ReID.ipynb file.
 Rank@1:0.879157 Rank@5:0.951010 Rank@10:0.967043 mAP:0.718611
 
 ## Citation
-```bib
-@article{zheng2019joint,
-  title={Joint discriminative and generative learning for person re-identification},
-  author={Zheng, Zhedong and Yang, Xiaodong and Yu, Zhiding and Zheng, Liang and Yang, Yi and Kautz, Jan},
-  journal={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2019}
-}
-```
-
-The following papers may be the first two to use the bottleneck baseline. You may cite them in your paper.
-```bib
-@article{DBLP:journals/corr/SunZDW17,
-  author    = {Yifan Sun and
-               Liang Zheng and
-               Weijian Deng and
-               Shengjin Wang},
-  title     = {SVDNet for Pedestrian Retrieval},
-  booktitle   = {ICCV},
-  year      = {2017},
-}
-
-@article{hermans2017defense,
-  title={In Defense of the Triplet Loss for Person Re-Identification},
-  author={Hermans, Alexander and Beyer, Lucas and Leibe, Bastian},
-  journal={arXiv preprint arXiv:1703.07737},
-  year={2017}
-}
-```
-
 Basic Model
 ```bib
 @article{zheng2018discriminatively,
